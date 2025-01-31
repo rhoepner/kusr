@@ -6,5 +6,5 @@ package main
 import "kusr/cmd"
 
 func main() {
-	cmd.Execute()
+	cmd.RootCmd.Execute()
 }
