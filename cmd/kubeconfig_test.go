@@ -10,6 +10,6 @@ func Test_execute(t *testing.T) {
 
 	RootCmd.SetOut(actual)
 	RootCmd.SetErr(actual)
-	RootCmd.SetArgs([]string{"kubeconfig", "--trace", "--noproxy", "jesko"})
+	RootCmd.SetArgs([]string{"kubeconfig", "--trace", "--noproxy", "pandora"})
 	RootCmd.Execute()
 }
